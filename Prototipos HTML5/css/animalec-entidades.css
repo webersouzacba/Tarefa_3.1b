@@ -1,0 +1,565 @@
+:root {
+  --nav-bg: #333c46;
+  --hero-bg: #263746;
+  --green: #00c18f;
+  --green-dark: #009270;
+  --red: #e74c3c;
+  --text-main: #333;
+  --card-border: #e2e4e7;
+  --bg-soft: #f5f7fa;
+  --table-header: #dde4eb;
+  --table-header-text: #333c46;
+}
+
+/* Base ------------------------------------------------------ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: var(--text-main);
+  background: #ffffff;
+}
+
+/* Navbar ---------------------------------------------------- */
+
+.navbar {
+  background: var(--nav-bg);
+  color: #fff;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-mark {
+  height: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.navbar-right a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+.avatar-frog {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Hero da página inicial ------------------------------------ */
+
+.hero {
+  background: var(--hero-bg);
+  color: #ffffff;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px 100px;
+}
+
+.hero-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 8px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 520px;
+  margin: 0 auto 24px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Botões ---------------------------------------------------- */
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #333c46;
+}
+
+.btn-white:hover {
+  background: #f2f2f2;
+}
+
+.btn-red {
+  background: var(--red);
+  color: #ffffff;
+}
+
+.btn-red:hover {
+  background: #c0392b;
+}
+
+.btn-green {
+  background: var(--green);
+  color: #ffffff;
+}
+
+.btn-green:hover {
+  background: var(--green-dark);
+}
+
+.btn-secondary {
+  background: #bdc3c7;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background: #95a5a6;
+}
+
+.btn-small {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 11px;
+  padding: 6px 9px;
+  text-transform: lowercase;
+  font-weight: 600;
+  background: #34495e;
+  color: #ffffff;
+}
+
+.btn-small.secondary {
+  background: var(--green);
+}
+
+.btn-small.danger {
+  background: var(--red);
+}
+
+/* Títulos / página genérica --------------------------------- */
+
+.page {
+  max-width: 1180px;
+  margin: 40px auto 80px;
+  padding: 0 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #333c46;
+  margin-bottom: 8px;
+}
+
+.page-sub {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+.page-divider {
+  width: 140px;
+  margin: 0 auto 30px;
+  border-bottom: 2px solid #d8dde3;
+  position: relative;
+}
+
+.page-divider::after {
+  content: "★";
+  position: absolute;
+  left: 50%;
+  top: -14px;
+  transform: translateX(-50%);
+  background: #ffffff;
+  padding: 0 8px;
+  color: #f1c40f;
+}
+
+/* Navegação interna (Lista / Novo / Editar) ----------------- */
+
+.page-nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 26px;
+  flex-wrap: wrap;
+}
+
+.tab-link {
+  border-radius: 999px;
+  border: 1px solid #d0d4d9;
+  padding: 8px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  color: #555;
+  background: #ffffff;
+}
+
+.tab-link:hover {
+  background: #f2f4f7;
+}
+
+/* Cards / painéis ------------------------------------------- */
+
+.card-box {
+  border-radius: 16px;
+  border: 1px solid var(--card-border);
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  padding: 22px 24px 24px;
+}
+
+.card-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.card-box-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #333c46;
+}
+
+.card-box-subtitle {
+  font-size: 13px;
+  color: #7f8c8d;
+}
+
+/* Layout 2 colunas (lista + form) --------------------------- */
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.2fr);
+  gap: 24px;
+  align-items: flex-start;
+}
+
+@media (max-width: 960px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pesquisa / filtros ---------------------------------------- */
+
+.search-bar {
+  margin-bottom: 12px;
+}
+
+.search-bar input {
+  width: 100%;
+  border-radius: 999px;
+  border: 1px solid #d3d6db;
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
+/* Tabelas da lista ------------------------------------------ */
+
+.table-wrapper {
+  border-radius: 10px;
+  border: 1px solid var(--card-border);
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table thead {
+  background: var(--table-header);
+}
+
+.table thead th {
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 700;
+  color: var(--table-header-text);
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.table tbody tr:hover {
+  background: #eef2f7;
+}
+
+.table tbody td {
+  padding: 8px 12px;
+}
+
+/* Formulários ----------------------------------------------- */
+
+.form-group {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 3px;
+  color: #777;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d3d6db;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.form-actions .btn {
+  flex: 1;
+}
+
+.helper {
+  font-size: 11px;
+  color: #888;
+  margin-top: 6px;
+}
+
+/* Secções de REGRAS, CONTACTOS e rodapé --------------------- */
+
+.regras {
+  background: var(--green);
+  color: #ffffff;
+  padding: 60px 20px 80px;
+  text-align: center;
+}
+
+.regras-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+.regras-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px 50px;
+}
+
+.regra-card {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.regra-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin: 0 auto 14px;
+}
+
+.contactos {
+  padding: 70px 20px 80px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contactos-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #333c46;
+  margin-bottom: 30px;
+}
+
+.contactos-form {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.contactos-form input,
+.contactos-form textarea {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #d3d6db;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.contactos-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contactos-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+/* Rodapé */
+
+.footer-main {
+  background: var(--hero-bg);
+  color: #ffffff;
+  padding: 40px 20px 30px;
+}
+
+.footer-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  text-align: center;
+}
+
+.footer-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 10px;
+}
+
+.footer-main a {
+  color: var(--green);
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin: 2px 0;
+}
+
+.footer-main a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.footer-social a {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background: #222b33;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 20px;
+}

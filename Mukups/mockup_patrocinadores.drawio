@@ -1,0 +1,247 @@
+<mxfile>
+  <diagram id="94faea13cee84a42b5c7290e63465829" name="Lista Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <!-- Navbar -->
+        <mxCell id="77dcd086c601444db61c0241f29bf7da" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2f3e46;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1040" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Logo placeholder -->
+        <mxCell id="2eefc60f55974394aea4ebeb18151975" value="LOGO Animalec" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="200" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Frog icon placeholder -->
+        <mxCell id="8e228bd45ee54bcf9c87ccbf586f24a9" value="🐸" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=22;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="890" y="50" width="60" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="88f7dc29ae61419bbe5c4d41e1f8fb4f" value="PATROCINADORES" style="whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="400" height="50" as="geometry"/>
+        </mxCell>
+
+        
+        <!-- Content card -->
+        <mxCell id="6ebe64c47b5b4e42983fe62a89355c0e" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dfe6e9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="210" width="880" height="420" as="geometry"/>
+        </mxCell>
+
+        <!-- Filter row (simples) -->
+        <mxCell id="2772baf9616f49f1901e44b5604b5cc9" value="Pesquisar patrocinador..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f2f6;strokeColor=#ced6e0;fontSize=14;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="840" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Table header -->
+        <mxCell id="0f5ae28fc63e4b77ba05c3a6d8b8b3c5" value="Nome | Website | Nível | Ativo | Ações" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dfe6e9;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="840" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="70c4731345414981a4cd21bdb6c0cfba" value="Cremutty | https://cremutty.pt | Ouro | Sim | Editar / Remover" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ecf0f1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="840" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4ab9e4bc023c4a478f1ec5753e257ce5" value="ZooKids | https://zookids.pt | Prata | Não | Editar / Remover" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ecf0f1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="364" width="840" height="40" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0cf601e7a6d94a84b79a7b3ca816aaa0" name="Lista Mobile">
+    <mxGraphModel dx="414" dy="896" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <!-- Navbar -->
+        <mxCell id="6bab3cadb06f4a53a1ebe798d786b98f" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2f3e46;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Logo placeholder -->
+        <mxCell id="08479a8d06d5451eb310a33c091abcf1" value="LOGO Animalec" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Frog icon placeholder -->
+        <mxCell id="7057fb31a8f14a138a09c9c80426a555" value="🐸" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=22;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="30" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="16b43c7a81f0405cbb95f6d10ebeaeb5" value="PATROCINADORES (Mobile)" style="whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="260" height="40" as="geometry"/>
+        </mxCell>
+
+        
+        <!-- phone frame -->
+        <mxCell id="3527f8c760114efc963ab1752ad90164" value="" style="rounded=1;strokeColor=#2f3e46;fillColor=#f5f6fa;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="260" height="520" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3d1af5938fee413cb4f56a22fd9e6e3f" value="Cremutty — Ouro — Ativo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dcdde1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="145" y="200" width="230" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="e96007bd8616442cb62d32c52308c129" value="ZooKids — Prata — Inativo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dcdde1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="145" y="290" width="230" height="80" as="geometry"/>
+        </mxCell>
+        
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8ef99611cccf4d1680bcc4a6acbaa7af" name="Editar Desktop">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <!-- Navbar -->
+        <mxCell id="39d9496113054999a7b48bf895d50f72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2f3e46;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="1040" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Logo placeholder -->
+        <mxCell id="1c4e2635f19d4a6282c249f8f8cb92ac" value="LOGO Animalec" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="200" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Frog icon placeholder -->
+        <mxCell id="2c65a3c01ed54f62af4e86fe84d6c750" value="🐸" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=22;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="890" y="50" width="60" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="c4903a1537ae47fdb5293d0912d361ea" value="PATROCINADORES — Editar" style="whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="400" height="50" as="geometry"/>
+        </mxCell>
+
+        
+        <mxCell id="62f24d86508f4bff977c35ffa5c1eddf" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dfe6e9;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="800" height="420" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="9fd68651a9eb4aeeb963ba9394adf352" value="Nome:" style="whiteSpace=wrap;html=1;fontSize=15;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="3f462fd986014cc19f71c2a4aa77e95f" value="" style="rounded=1;fillColor=#f1f2f6;strokeColor=#ced6e0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="360" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="49990912bfb34fafb83160131875bcde" value="Website:" style="whiteSpace=wrap;html=1;fontSize=15;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="1ac18b23eaab411492182ebef4350ee3" value="" style="rounded=1;fillColor=#f1f2f6;strokeColor=#ced6e0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="360" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="979cf8e2b7fa4e83a80265f1cb3169d4" value="Descrição:" style="whiteSpace=wrap;html=1;fontSize=15;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad1867d07fc445e19d0f7aca62c47db1" value="" style="rounded=1;fillColor=#f1f2f6;strokeColor=#ced6e0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="350" width="360" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="834dee07ccd247f892bd84af3ac6e19a" value="Nível:" style="whiteSpace=wrap;html=1;fontSize=15;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="5604dfb9f15e47f2a01b87f0750f4a4b" value="" style="rounded=1;fillColor=#f1f2f6;strokeColor=#ced6e0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="400" width="360" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="1163878e0e76432f9ded2a0e61c740cf" value="Ativo:" style="whiteSpace=wrap;html=1;fontSize=15;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="150" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="a4f91984cb4d498c9faa263ecd2c5a97" value="" style="rounded=1;fillColor=#f1f2f6;strokeColor=#ced6e0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="450" width="360" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="778cb5444fcd47ed8cae37768ec99845" value="Guardar" style="rounded=1;fillColor=#2ecc71;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="298d2fa47189448dbca792e8a0f10b5f" value="Cancelar" style="rounded=1;fillColor=#95a5a6;fontColor=#ffffff;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="560" width="120" height="34" as="geometry"/>
+        </mxCell>
+    
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="90bf769b1b724983b3cbceb51fd16de2" name="Editar Mobile">
+    <mxGraphModel dx="414" dy="896" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <!-- Navbar -->
+        <mxCell id="c7fe48bcb0b54ebdb1526705e4f5317e" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2f3e46;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="260" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Logo placeholder -->
+        <mxCell id="0e5a3da349144a87a1ad9767db4e8363" value="LOGO Animalec" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=16;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Frog icon placeholder -->
+        <mxCell id="05b54b1e239348f0a583d71f895d6bc5" value="🐸" style="whiteSpace=wrap;html=1;fontColor=#ffffff;fontSize=22;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="30" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Title -->
+        <mxCell id="fe2570c219394438b487e20e01eec0b4" value="PATROCINADORES — Editar (Mobile)" style="whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="260" height="40" as="geometry"/>
+        </mxCell>
+
+        
+        <mxCell id="6022046b098f469d873124f28565b5db" value="" style="rounded=1;strokeColor=#2f3e46;fillColor=#f5f6fa;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="260" height="520" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="91707e11ddb94fee8ecbfcedca81228c" value="Nome" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="220" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="803c2772ef6044318493ec761eb0b1e1" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dcdde1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="218" width="220" height="24" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6ecbbd84aa344810bf9588d7be7c649f" value="Website" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="252" width="220" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3ff50a7a158496d933cf91f644362d8" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dcdde1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="220" height="24" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4c1155fbb1b848a4ba5816341d101419" value="Descrição" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="304" width="220" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="f6ed3d2085a54b4289578cd99a42e776" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dcdde1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="322" width="220" height="24" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="fdb72769a26943a6851b112507a889c3" value="Nível" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="356" width="220" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="b7bf2e0bb31f4c0e9a3c8b92d71729cd" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dcdde1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="374" width="220" height="24" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="358f8bfeaad2448594ffacc2ac491065" value="Ativo" style="whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="150" y="408" width="220" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="f941a1b019e44301b98404bc958792d3" value="" style="rounded=1;fillColor=#ffffff;strokeColor=#dcdde1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="426" width="220" height="24" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="25597c90588c4c50ab49b299e8207e68" value="Guardar" style="rounded=1;fillColor=#2ecc71;fontColor=#ffffff;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="150" y="610" width="105" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="b4cf8e6b4bc84d0683f6aee16ba7bc06" value="Cancelar" style="rounded=1;fillColor=#95a5a6;fontColor=#ffffff;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="265" y="610" width="105" height="26" as="geometry"/>
+        </mxCell>
+    
+
+      </root>
+    </mxGraphModel>
+  </diagram></mxfile>

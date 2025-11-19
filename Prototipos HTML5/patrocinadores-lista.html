@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Animalec – Patrocinadores (Lista)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animalec-entidades.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="imagens/logo-animalec.png" alt="Animalec" class="logo-mark">
+    </div>
+    <nav class="navbar-right">
+      <a href="index.html">ANIMAIS</a>
+      <a href="#">QUIZZES</a>
+      <a href="index.html#contactos">CONTACTOS</a>
+      <a href="patrocinadores-lista.html">PATROCINADORES</a>
+      <a href="especialistas-lista.html">ESPECIALISTAS</a>
+      <img src="imagens/avatar-sapo.png" alt="Perfil" class="avatar-frog">
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Patrocinadores</h1>
+    <p class="page-sub">Lista de entidades financiadoras associadas ao Animalec.</p>
+    <div class="page-divider"></div>
+
+    <div class="page-nav">
+      <a class="tab-link" href="patrocinadores-lista.html">Lista</a>
+      <a class="tab-link" href="patrocinadores-novo.html">Novo patrocinador</a>
+    </div>
+
+    <div class="card-box">
+      <div class="card-box-header">
+        <div class="card-box-title">Lista</div>
+        <button class="btn btn-green" onclick="location.href='patrocinadores-novo.html'">+ Novo patrocinador</button>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar patrocinador...">
+      </div>
+
+      <div class="table-wrapper">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Área</th>
+              <th>Email</th>
+              <th>Website</th>
+              <th>Nível</th>
+              <th style="width:160px;">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>XPTO Tech S.A.</td>
+              <td>Tecnologia</td>
+              <td>contacto@xpto.pt</td>
+              <td>https://xpto.pt</td>
+              <td>Platina</td>
+              <td>
+                <button class="btn-small" onclick="location.href='patrocinadores-editar.html'">editar</button>
+                <button class="btn-small secondary">vincular missão</button>
+                <button class="btn-small danger">remover</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Instituto Futuro Sustentável</td>
+              <td>Educação Ambiental</td>
+              <td>info@futuro.pt</td>
+              <td>https://futuro.pt</td>
+              <td>Ouro</td>
+              <td>
+                <button class="btn-small" onclick="location.href='patrocinadores-editar.html'">editar</button>
+                <button class="btn-small secondary">vincular missão</button>
+                <button class="btn-small danger">remover</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="helper">
+        Protótipo iterativo: os níveis e vínculos a missões serão tratados na fase de implementação.
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>

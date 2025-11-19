@@ -1,0 +1,151 @@
+<mxfile host="65bd71144e">
+    <diagram id="4663bf2751ef49e8a317f60b0f8d992c" name="Lista Desktop">
+        <mxGraphModel dx="1026" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="d30c2c210c594a1980fd8d3a34c997fc" value="LOGO | Dashboard | Animais | Quizzes | Patrocinadores | Especialistas | Utilizadores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;fontColor=#ecf0f1;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33c98856aef748ae94a1e4e3ed003f2f" value="ESPECIALISTAS — Lista (Desktop)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="110" width="450" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3ca8ed3c43954e41bcc49050c323eeec" value="+ Novo registo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="170" width="160" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="15e65b6bfcc5483b840bc881b680b229" value="Nome | Especialidade | Email | Site principal | Ações" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bdc3c7;fontColor=#2c3e50;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="220" width="900" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="367cfa231e494caf80b0eda066d010a6" value="Dr. Silva | Zoologia | dr.silva@example.com | https://silva.pt | Editar / Remover" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ecf0f1;fontColor=#2c3e50;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="260" width="900" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42a1a9756e5c479792c6776b7c9afe19" value="Prof. Costa | Educação Ambiental | costa@example.com | https://costa.pt | Editar / Remover" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ecf0f1;fontColor=#2c3e50;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="300" width="900" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="8c95f415d64f44b8912cd70872784e29" name="Lista Mobile">
+        <mxGraphModel dx="1026" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="1d246d8df0664f0891f6f2c113de167a" value="LOGO | Menu Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;fontColor=#ecf0f1;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="20" width="500" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="a277f8de4f254127804d51008da7d4b9" value="ESPECIALISTAS — Lista (Mobile)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="100" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8db151636a8e43d6b7a27e15a6e4a37a" value="+ Novo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="150" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="b357e8f1ab064b7688e867fbc85ebb21" value="Dr. Silva — Zoologia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecf0f1;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="210" width="600" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3ba2b00a23f74f9da10ec9007351735a" value="Prof. Costa — Educação Ambiental" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ecf0f1;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="310" width="600" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="f796747f0e704d02acd01c37d7674be6" name="Editar Desktop">
+        <mxGraphModel dx="1026" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="562d3c2c51c949f59ac0b537ab3ea46e" value="LOGO | Dashboard | Animais | Quizzes | Patrocinadores | Especialistas | Utilizadores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;fontColor=#ecf0f1;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="1100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26285418f075407ab6ee664acdd99e9f" value="ESPECIALISTAS — Editar (Desktop)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="110" width="450" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="183d13a933dd45ef93f847d854e1a363" value="Nome:" style="rounded=0;whiteSpace=wrap;html=1;align=right;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="200" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98076d3263f647e7a27831eab90f86bf" value="[ Nome ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="200" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="914bdce4695047b1b4db842322276d59" value="Foto:" style="rounded=0;whiteSpace=wrap;html=1;align=right;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="250" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9e2281eae3c04e87b7f820683a80c7b7" value="[ Foto ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="250" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8ed23b1a9ee34c9ab4607a7507b82865" value="Especialidade:" style="rounded=0;whiteSpace=wrap;html=1;align=right;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="300" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c15b354dcbcb4f1da94044469c93bd70" value="[ Especialidade ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="300" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="031567e6b64340deb26eb7b3b0b4d1dd" value="Email:" style="rounded=0;whiteSpace=wrap;html=1;align=right;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="350" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36c3a253c42a444181628e7324ed80ec" value="[ Email ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="350" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="feabd6784ef7488bbefc3702b0eb1a68" value="Site principal:" style="rounded=0;whiteSpace=wrap;html=1;align=right;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="400" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="636e5a1486974e04bf74f3d2c2ffad52" value="[ Site principal ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="400" width="500" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31138d7aa04643b8a514cd581c020a64" value="Guardar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="450" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="d14763893ab541468691dee83e0e7b5c" value="Cancelar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f8c8d;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="450" width="120" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="727d7939db27474bba9b9c0b3265e51a" name="Editar Mobile">
+        <mxGraphModel dx="1026" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5026d0c90a1f4c9d866f331439a0af90" value="LOGO | Menu Admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2c3e50;fontColor=#ecf0f1;fontSize=14;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="20" width="500" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9a06ddf23b144389a47e042454c6203a" value="ESPECIALISTAS — Editar (Mobile)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="100" width="360" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7bcf4dad0c8d4e1aac4eadfe87b26ccc" value="Nome:" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="200" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="17eaa8f5ad2a4367a35c1e5a49f8bdc1" value="[ Nome ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="225" width="400" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="2ec0fab525834ae197cbf00c86c04862" value="Foto:" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="265" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="10fd7b96b7b04f78a25446dd2b100f28" value="[ Foto ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="290" width="400" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="cfdf348f40e94911a52f2080ff923230" value="Especialidade:" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="330" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="40d4a95d575d4f9d8774716261514e1d" value="[ Especialidade ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="355" width="400" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="f7e384c4eefe4d6c8438437576b79c89" value="Email:" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="395" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="e59ee4437a594a0cbac9f73086096929" value="[ Email ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="420" width="400" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="1f8465b8f1654af2912b81888fab365f" value="Site principal:" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="460" width="140" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="69ebf83396264e3c802dfe2fd1cf98e7" value="[ Site principal ]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#7f8c8d;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="485" width="400" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="f73af8579cc541c3ad969dfcd7267007" value="Guardar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#27ae60;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="525" width="140" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="c56eb5be45bf401d97728f28741adbbd" value="Cancelar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7f8c8d;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="525" width="140" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

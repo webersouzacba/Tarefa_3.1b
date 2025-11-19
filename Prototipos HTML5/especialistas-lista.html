@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Animalec – Especialistas (Lista)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animalec-entidades.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="imagens/logo-animalec.png" alt="Animalec" class="logo-mark">
+    </div>
+    <nav class="navbar-right">
+      <a href="index.html">ANIMAIS</a>
+      <a href="#">QUIZZES</a>
+      <a href="index.html#contactos">CONTACTOS</a>
+      <a href="patrocinadores-lista.html">PATROCINADORES</a>
+      <a href="especialistas-lista.html">ESPECIALISTAS</a>
+      <img src="imagens/avatar-sapo.png" alt="Perfil" class="avatar-frog">
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Especialistas</h1>
+    <p class="page-sub">Lista de especialistas registados no Animalec.</p>
+    <div class="page-divider"></div>
+
+    <div class="page-nav">
+      <a class="tab-link" href="especialistas-lista.html">Lista</a>
+      <a class="tab-link" href="especialistas-novo.html">Novo especialista</a>
+    </div>
+
+    <div class="card-box">
+      <div class="card-box-header">
+        <div class="card-box-title">Lista</div>
+        <button class="btn btn-green" onclick="location.href='especialistas-novo.html'">+ Novo especialista</button>
+      </div>
+
+      <div class="search-bar">
+        <input type="text" placeholder="Pesquisar especialista...">
+      </div>
+
+      <div class="table-wrapper">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Especialidade</th>
+              <th>Email</th>
+              <th>Site</th>
+              <th style="width:140px;">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dr. Silva</td>
+              <td>Zoologia</td>
+              <td>dr.silva@example.com</td>
+              <td>https://silva.pt</td>
+              <td>
+                <button class="btn-small" onclick="location.href='especialistas-editar.html'">editar</button>
+                <button class="btn-small danger">remover</button>
+              </td>
+            </tr>
+            <tr>
+              <td>Prof. Costa</td>
+              <td>Educação Ambiental</td>
+              <td>costa@example.com</td>
+              <td>https://costa.pt</td>
+              <td>
+                <button class="btn-small" onclick="location.href='especialistas-editar.html'">editar</button>
+                <button class="btn-small danger">remover</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="helper">
+        Protótipo iterativo: as ações de editar/remover apenas simulam a navegação entre ecrãs.
+      </p>
+    </div>
+  </main>
+
+</body>
+</html>

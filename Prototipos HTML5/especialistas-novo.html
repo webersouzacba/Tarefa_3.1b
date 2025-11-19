@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Animalec – Especialistas (Novo)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/animalec-entidades.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-left">
+      <img src="imagens/logo-animalec.png" alt="Animalec" class="logo-mark">
+    </div>
+    <nav class="navbar-right">
+      <a href="index.html">ANIMAIS</a>
+      <a href="#">QUIZZES</a>
+      <a href="index.html#contactos">CONTACTOS</a>
+      <a href="patrocinadores-lista.html">PATROCINADORES</a>
+      <a href="especialistas-lista.html">ESPECIALISTAS</a>
+      <img src="imagens/avatar-sapo.png" alt="Perfil" class="avatar-frog">
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1 class="page-title">Especialistas — Novo</h1>
+    <p class="page-sub">Registo de um novo especialista.</p>
+    <div class="page-divider"></div>
+
+    <div class="page-nav">
+      <a class="tab-link" href="especialistas-lista.html">Lista</a>
+      <a class="tab-link" href="especialistas-novo.html">Novo especialista</a>
+    </div>
+
+    <div class="card-box">
+      <div class="card-box-header">
+        <div class="card-box-title">Dados do especialista</div>
+        <div class="card-box-subtitle">Campos base conforme o mockup (Nome, Foto, Especialidade, Email, Site principal).</div>
+      </div>
+
+      <form>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input id="nome" type="text" placeholder="Ex.: Dr. Silva">
+        </div>
+
+        <div class="form-group">
+          <label for="foto">Foto (URL)</label>
+          <input id="foto" type="text" placeholder="https://exemplo.org/foto.jpg">
+        </div>
+
+        <div class="form-group">
+          <label for="especialidade">Especialidade</label>
+          <input id="especialidade" type="text" placeholder="Zoologia, Educação Ambiental...">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="dr.silva@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="site">Site principal</label>
+          <input id="site" type="url" placeholder="https://silva.pt">
+        </div>
+
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" onclick="location.href='especialistas-lista.html'">Cancelar</button>
+          <button type="submit" class="btn btn-green">Guardar</button>
+        </div>
+
+        <p class="helper">
+          Protótipo iterativo: ao implementar o back-end, este formulário chamará o endpoint de criação de especialista.
+        </p>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
